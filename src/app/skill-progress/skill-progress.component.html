@@ -1,0 +1,16 @@
+<div class="skills-container" *ngIf="techStack.viewSkillBars">
+  <div class="skills-bar">
+    <h1 class="skills-heading">Proficiency</h1>
+    <div class="skill" *ngFor="let exp of techStack.experience">
+      <p>{{exp.Stack}}</p>
+      <div class="meter">
+        <span [style]=progressStyle(exp.progressPercentage)></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-image">
+    <img alt="Skills" src="../../assets/images/skill.svg" >
+  </div>
+
+</div>
