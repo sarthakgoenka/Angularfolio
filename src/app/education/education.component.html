@@ -1,0 +1,70 @@
+<!--<p>education works!</p>-->
+<div class="prt_about_edulearn_wrapper">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="prt_heading_wrapper">
+      <div class="prt_heading">
+        <h1 class="timeline-heading">Education 💻</h1>
+      </div>
+    </div>
+    <div class="prt_about_learnsection">
+      <div *ngFor="let i of timeline">
+        <div [class]=i.className1>
+          <div [class]=i.className2>
+            <div class="prt_about_learnbox_year">
+              <h1>{{i.duration}}</h1>
+            </div>
+            <div class="prt_about_learnbox_info">
+              <h4>{{i.heading}}</h4>
+              <span>{{i.subtitle}}</span>
+              <p>{{i.content}}</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+<!--        <div class="mar-left">-->
+<!--          <div class="prt_about_learnbox_right">-->
+<!--            <div class="prt_about_learnbox_year">-->
+<!--              <h1>2020</h1>-->
+<!--            </div>-->
+<!--            <div class="prt_about_learnbox_info">-->
+<!--              <h4>B.Tech - Computer Science &amp; Engineering</h4>-->
+<!--              <span>GLA University, Mathura</span>-->
+<!--              <p>The undergrad education started in 2016 and is expected to be completed by May 2020.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="mar-right">-->
+<!--          <div class="prt_about_learnbox_left">-->
+<!--            <div class="prt_about_learnbox_year">-->
+<!--              <h1>2016</h1>-->
+<!--            </div>-->
+<!--            <div class="prt_about_learnbox_info">-->
+<!--              <h4>Intermediate</h4>-->
+<!--              <span>-->
+<!--											   CBSE Board											 </span>-->
+<!--              <p>Successfully completed my intermediate studies in 2016 from Gyan Deep Sr. Secondary Public School, Shikohabad. <br>Major: PCM &amp; Computer</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="mar-left">-->
+<!--          <div class="prt_about_learnbox_right">-->
+<!--            <div class="prt_about_learnbox_year">-->
+<!--              <h1>2014</h1>-->
+<!--            </div>-->
+<!--            <div class="prt_about_learnbox_info">-->
+<!--              <h4>High School</h4>-->
+<!--              <span>CBSE Board</span>-->
+<!--              <p>Successfully completed my high school studies in 2014 from Georgions Academy, Shikohabad.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+

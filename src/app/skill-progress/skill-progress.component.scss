@@ -16,7 +16,7 @@ h1{
   border-bottom-right-radius: 6px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: #aaa5ff;
+  background-color: #a1bcd8;
   position: relative;
   overflow: hidden;
 }
@@ -34,6 +34,7 @@ h1{
   margin: 0px auto;
   margin-top: 2rem;
 }
+
 .skills-container > * {
   flex: 1;
   margin-bottom: 30px;
@@ -51,7 +52,7 @@ h1{
     line-height: 4rem;
   }
   .skills-image {
-    display: none;
+    //display: none;
     order: 2;
   }
 }

@@ -1,0 +1,16 @@
+<div class="container">
+  <h1 class="timeline-heading">Education</h1>
+
+  <ul class="timeline">
+
+    <li *ngFor="let item of timeline">
+      <div [class]=item.className>
+        <div class="flag-wrapper">
+          <span class="flag">{{item.heading}}</span>
+          <span class="time-wrapper"><span class="time">{{item.duration}}</span></span>
+        </div>
+        <div class="desc">{{item.content}}</div>
+      </div>
+    </li>
+  </ul>
+</div>

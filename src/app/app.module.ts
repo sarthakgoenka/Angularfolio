@@ -14,6 +14,12 @@ import { SkillProgressComponent } from './skill-progress/skill-progress.componen
 import { FooterComponent } from './footer/footer.component';
 import { TopButtonComponent } from './top-button/top-button.component';
 import { ContactComponent } from './contact/contact.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ExperienceCardComponent } from './experience/experience-card/experience-card.component';
+import { GithubRepoCardComponent } from './github-repo-card/github-repo-card.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +33,13 @@ import { ContactComponent } from './contact/contact.component';
     SkillProgressComponent,
     FooterComponent,
     TopButtonComponent,
-    ContactComponent
+    ContactComponent,
+    TimelineComponent,
+    ExperienceComponent,
+    ExperienceCardComponent,
+    GithubRepoCardComponent,
+    ProjectsComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

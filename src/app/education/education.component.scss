@@ -1,0 +1,293 @@
+.prt_about_edulearn_wrapper {
+  display: inline-block;
+  width: 100%;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+.timeline-heading{
+  text-align: center;
+  font-weight: 400;
+}
+//#6c63ff
+//#868e96
+//#0a52d6
+.prt_heading_wrapper {
+  text-align: center;
+}
+.prt_about_learnsection {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  //
+  //&::before{
+  //  position: absolute;
+  //  left: 50%;
+  //  top: 0;
+  //  content: ' ';
+  //  display: block;
+  //  width: px;
+  //  height: 100%;
+  //  margin-left: -3px;
+  //  background: rgb(80,80,80);
+  //  background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  //  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+  //  background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  //  background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  //  background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  //  background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  //
+  //  z-index: 5;
+  //}
+}
+
+.prt_heading {
+  margin-bottom: 50px;
+  position: relative;
+  transition: all .3s;
+}
+.prt_btn, .prt_heading {
+  display: inline-block;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+.prt_heading h1 {
+  font-size: 40px;
+  position: relative;
+  width: auto;
+  padding-bottom: 15px;
+}
+.prt_heading h1, .prt_heading p {
+  //text-transform: uppercase;
+  margin: 0;
+  font-weight: 400;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.1;
+  color: #000000;
+}
+.prt_heading p {
+  text-align: right;
+  width: auto;
+  background-color: #010101;
+  padding-left: 10px;
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  color: #6c63ff;
+}
+
+.prt_about_learnbox_info {
+  display: table-cell;
+  width: calc(100% - 200px);
+}
+.prt_about_learnbox_info h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+.prt_about_learnbox_info span {
+  color: #000;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.prt_about_learnbox_info p {
+  margin: 0;
+}
+.prt_about_learnbox_right {
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.prt_about_learnbox_left {
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: right;
+  position: relative;
+  -o-transition: all .3s;
+  transition: all .3s;
+
+
+}
+//.prt_about_learnbox_left::after {
+//  position: absolute;
+//  background-color: #000;
+//  width: 15px;
+//  border-radius: 100%;
+//  border: 3px solid orangered;
+//  right: -22px;
+//  -o-transition: all .3s;
+//  transition: all .3s;
+//}
+//.prt_about_learnbox_right::after {
+//  position: absolute;
+//  background-color: #000;
+//  width: 15px;
+//  border-radius: 100%;
+//  border: 3px solid #fff;
+//  left: -22px;
+//  -o-transition: all .3s;
+//  transition: all .3s;
+//}
+.mar-left{
+  margin-left: 50%;
+  padding-left: 2rem;
+}
+.mar-right{
+  margin-right: 50%;
+  padding-right: 2rem;
+}
+.prt_about_learnbox_left .prt_about_learnbox_year {
+  float: right;
+  padding-top: 30px;
+}
+.prt_about_learnbox_year {
+  display: table-cell;
+  width: 200px;
+  vertical-align: middle;
+}
+.prt_about_learnbox_left .prt_about_learnbox_info {
+  float: left;
+}
+.prt_about_learnbox_info {
+   display: table-cell;
+   width: calc(100% - 200px);
+ }
+.prt_about_learnbox_year h1 {
+  font-size: 60px;
+  margin: 0;
+  color: #a1bcd8;
+  font-weight: 500;
+}
+
+
+
+.prt_about_learnsection:after {
+  content: "";
+  position: absolute;
+  background-color: #202020;
+  width: 2px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: -1
+}
+
+.prt_about_learnbox_left:after,
+.prt_about_learnbox_right:after {
+  content: "";
+  height: 15px;
+  top: 50%;
+  margin-top: -7px
+}
+
+.prt_about_learnbox_right {
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+  -o-transition: all .3s;
+  transition: all .3s
+}
+
+.prt_about_learnbox_right:after {
+  position: absolute;
+  background-color: #000;
+  width: 15px;
+  border-radius: 100%;
+  border: 0px solid #fff;
+  left: -41px;
+  -o-transition: all .3s;
+  transition: all .3s;
+  z-index: 100;
+}
+
+.prt_about_learnbox_left,
+.prt_about_learnbox_right:hover:after {
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s
+}
+
+.prt_about_learnbox_right:hover:after {
+  background-color: #fff;
+  border: 3px solid #6c63ff;
+  -o-transition: all .3s;
+  transition: all .3s
+}
+
+.prt_about_learnbox_left {
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: right;
+  position: relative;
+  -o-transition: all .3s;
+  transition: all .3s
+}
+
+.prt_about_learnbox_left:after,
+.prt_about_learnbox_left:hover:after {
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s
+}
+
+.prt_about_learnbox_left:after {
+  position: absolute;
+  background-color: #000;
+  width: 15px;
+  border-radius: 100%;
+  border: 0px solid #fff;
+  right: -39px;
+  -o-transition: all .3s;
+  transition: all .3s;
+  z-index: 100;
+}
+
+.prt_about_experiencebox:after,
+.prt_contact_details_box:after,
+.prt_couter_wrapper:after {
+  right: 0;
+  bottom: 0;
+  content: ""
+}
+
+.prt_about_learnbox_left:hover:after {
+  background-color: #fff;
+  border: 3px solid #6c63ff;
+  -o-transition: all .3s;
+  transition: all .3s
+}
+
+.prt_about_learnbox_left:hover .prt_about_learnbox_year h1,
+.prt_about_learnbox_right:hover .prt_about_learnbox_year h1 {
+  color: #6c63ff;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  /* -webkit-animation-duration: 2s; */
+  /* -moz-animation-duration: 2s; */
+  /* -ms-animation-duration: 2s; */
+  /* -o-animation-duration: 2s; */
+  /* animation-duration: 2s; */
+  /* -webkit-animation-delay: .3s; */
+  /* -moz-animation-delay: .3s; */
+  /* -ms-animation-delay: .3s; */
+  /* -o-animation-delay: .3s; */
+  /* animation-delay: .3s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-name: pulse */
+}
+
