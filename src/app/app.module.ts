@@ -17,7 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceCardComponent } from './experience/experience-card/experience-card.component';
-import { GithubRepoCardComponent } from './github-repo-card/github-repo-card.component';
+import { GithubRepoCardComponent } from './projects/github-repo-card/github-repo-card.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 
@@ -46,7 +46,9 @@ import { EducationComponent } from './education/education.component';
     AppRoutingModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [
+    { provide: Window, useValue: window }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

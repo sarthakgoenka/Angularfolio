@@ -1,7 +1,7 @@
 .repo-card-div {
   color: rgb(88, 96, 105);
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
 }
@@ -30,12 +30,25 @@
   margin-right: 0.25rem;
   border-radius: 100%;
 }
+.JavaScript{
+  background-color: yellow;
+}
+.CSS{
+  background-color: rebeccapurple;
+}
+.HTML{
+  background-color: orangered;
+}
 
 .repo-left-stat span {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
   margin-right: 0.75rem;
+
+  & > p{
+    margin: 0;
+  }
 }
 
 .repo-name-div {
@@ -65,8 +78,9 @@
 }
 
 .repo-description {
+  margin-top: 1rem;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }

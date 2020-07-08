@@ -2,12 +2,13 @@
 <div class="main" id="opensource">
   <h1 class="project-title">Projects</h1>
   <div class="repo-cards-div-main" >
-    <app-github-repo-card></app-github-repo-card>
-    <app-github-repo-card></app-github-repo-card>
-    <app-github-repo-card></app-github-repo-card>
-    <app-github-repo-card></app-github-repo-card>
-    <app-github-repo-card></app-github-repo-card>
+    <app-github-repo-card *ngFor="let project of projects" [github]="project"></app-github-repo-card>
+<!--    <app-github-repo-card></app-github-repo-card>-->
+<!--    <app-github-repo-card></app-github-repo-card>-->
+<!--    <app-github-repo-card></app-github-repo-card>-->
+<!--    <app-github-repo-card></app-github-repo-card>-->
   </div>
 <!--  <button class="project-button" >MoreProject</button>-->
   <div class="project-button"><a class="main-button" href="https://github.com/sarthakgoenka" target="_blank">More Projects</a></div>
 </div>
+

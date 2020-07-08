@@ -139,10 +139,16 @@
 .mar-left{
   margin-left: 50%;
   padding-left: 2rem;
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 }
 .mar-right{
   margin-right: 50%;
   padding-right: 2rem;
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 }
 .prt_about_learnbox_left .prt_about_learnbox_year {
   float: right;
@@ -179,8 +185,14 @@
   left: 0;
   right: 0;
   margin: 0 auto;
-  z-index: -1
-}
+  z-index: -1;
+
+  @media (max-width: 768px) {
+        width: 0;
+    visibility: hidden;
+    }
+  }
+
 
 .prt_about_learnbox_left:after,
 .prt_about_learnbox_right:after {
@@ -209,6 +221,9 @@
   -o-transition: all .3s;
   transition: all .3s;
   z-index: 100;
+  @media (max-width: 768px) {
+    visibility: hidden;
+  }
 }
 
 .prt_about_learnbox_left,
@@ -252,6 +267,9 @@
   -o-transition: all .3s;
   transition: all .3s;
   z-index: 100;
+  @media (max-width: 768px) {
+    visibility: hidden;
+  }
 }
 
 .prt_about_experiencebox:after,
@@ -291,3 +309,16 @@
   /* animation-name: pulse */
 }
 
+
+@media (max-width: 768px) {
+  .prt_about_learnbox_left, .prt_about_learnbox_right {
+
+    border-bottom: 1px solid #202020;
+    padding-bottom: 30px;
+  }
+}
+//@media (max-width: 320px) {
+//  .main-button {
+//    font-size: 12px;
+//  }
+//}
