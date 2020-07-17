@@ -1,3 +1,4 @@
+
 .experience-card {
   position: relative;
   background-color: rgb(255, 255, 255);
@@ -102,8 +103,12 @@
 
 .experience-text-desc {
   text-align: center;
+  margin-top: 1rem;
+  line-height: normal;
 }
-
+.subTitle {
+  color: #868e96;
+}
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
@@ -141,4 +146,9 @@
   .experience-text-desc {
     font-size: 16px;
   }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }

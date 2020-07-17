@@ -2,6 +2,11 @@
   display: flex;
 }
 
+.subTitle {
+  color: rgb(134, 142, 150);
+}
+
+
 .contact-div-main > * {
   flex: 1;
 }
@@ -9,6 +14,7 @@
 .contact-title {
   font-size: 65px;
   font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .contact-detail,

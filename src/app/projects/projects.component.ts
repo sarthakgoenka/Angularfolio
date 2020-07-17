@@ -9,11 +9,11 @@ export class ProjectsComponent implements OnInit {
   projects = [
     {
       name:"Event Recognition",
-      description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut autem blanditiis consequuntur deserunt dolore earum, eius et, iste itaque laudantium modi nesciunt officiis omnis quasi quisquam quos repellat suscipit?",
+      description: "Real-time pose estimation and event recognition by using TensorFlow and Openpose",
       language:"Python",
       fork: 2,
       star:3,
-      size: "51450 KB",
+      size: "514570 KB",
       link : ""
     },
     {
@@ -23,16 +23,16 @@ export class ProjectsComponent implements OnInit {
       fork: 0,
       star:1,
       link: "https://github.com/sarthakgoenka/portfolio",
-      size: "10569 KB"
+      size: "80569 KB"
     },
     {
-      name:"Natoure",
-      description: "⚡️ Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.",
+      name:"Natours(Nature+Tours)",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ",
       language:"CSS",
       fork: 0,
       star:2,
-      link: "",
-      size: "780 KB"
+      link: "https://natours-8aa57.web.app/",
+      size: "1780 KB"
     },
     {
       name:"Personal-Doc",
@@ -42,17 +42,17 @@ export class ProjectsComponent implements OnInit {
       fork: 1,
       star:5,
       link: "https://personal-doc.herokuapp.com/",
-      size: "15862 KB"
+      size: "45862 KB"
     },
     {
       name:"Node Chat Application",
       description: "A simple real-time chat application. It features public chat rooms or\n" +
         "you can create private chat rooms with friends, family, etc. You can chat, attach your ﬁles and share your live location as well.",
-      language:"Python",
+      language:"JavaScript",
       fork: 2,
       star:3,
       link: "https://github.com/sarthakgoenka/node-chat-app",
-      size: "10569 KB"
+      size: "60569 KB"
     }
   ]
   constructor() { }

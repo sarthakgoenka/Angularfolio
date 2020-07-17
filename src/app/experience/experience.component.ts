@@ -7,36 +7,39 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
-  // public workExperiences = {
-  //   viewExperiences: true,
-  //   experience: [
-  //     {
-  //       role: "Software Engineer",
-  //       company: "Facebook",
-  //       companylogo: require("./assets/images/facebookLogo.png"),
-  //       date: "June 2018 – Present",
-  //       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  //       descBullets: [
-  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-  //       ]
-  //     },
-  //     {
-  //       role: "Front-End Developer",
-  //       company: "Quora",
-  //       companylogo: require("./assets/images/quoraLogo.png"),
-  //       date: "May 2017 – May 2018",
-  //       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  //     },
-  //     {
-  //       role: "Software Engineer Intern",
-  //       company: "Airbnb",
-  //       companylogo: require("./assets/images/airbnbLogo.png"),
-  //       date: "Jan 2015 – Sep 2015",
-  //       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  //     },
-  //   ]
-  // };
+  public workExperiences = {
+    viewExperiences: true,
+    experience: [
+      {
+        role: "Full Stack Engineer",
+        company: "Infosys",
+        color: "#3781c2",
+        companylogo: "../../../assets/images/infosys.png",
+        date: "Upcoming",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        descBullets: [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        ]
+      },
+      {
+        role: "Computer Science & Engineering",
+        company: "GLA University",
+        color: "#3f703f",
+        companylogo: "../../../assets/images/gla.png",
+        date: "Aug 2016 – Jul 2020",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        role: "Software Engineer Intern",
+        company: "Innovative Buiness Solutions",
+        color: "#ff9102",
+        companylogo: "../../../assets/images/ibs.png",
+        date: "Jun 2018 – Aug 2018",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+    ]
+  };
 
   constructor() { }
 

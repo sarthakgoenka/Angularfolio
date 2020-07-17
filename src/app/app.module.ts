@@ -20,27 +20,26 @@ import { ExperienceCardComponent } from './experience/experience-card/experience
 import { GithubRepoCardComponent } from './projects/github-repo-card/github-repo-card.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
-
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    GreetingComponent,
-    ButtonComponent,
-    SocialMediaComponent,
-    SkillsComponent,
-    SoftwareSkillComponent,
-    SkillProgressComponent,
-    FooterComponent,
-    TopButtonComponent,
-    ContactComponent,
-    TimelineComponent,
-    ExperienceComponent,
-    ExperienceCardComponent,
-    GithubRepoCardComponent,
-    ProjectsComponent,
-    EducationComponent
-  ],
+    declarations: [
+        AppComponent,
+        HeaderComponent,
+        GreetingComponent,
+        ButtonComponent,
+        SocialMediaComponent,
+        SkillsComponent,
+        SoftwareSkillComponent,
+        SkillProgressComponent,
+        FooterComponent,
+        TopButtonComponent,
+        ContactComponent,
+        TimelineComponent,
+        ExperienceComponent,
+        ExperienceCardComponent,
+        GithubRepoCardComponent,
+        ProjectsComponent,
+        EducationComponent,
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,

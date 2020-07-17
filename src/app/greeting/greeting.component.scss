@@ -33,6 +33,7 @@
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
+  margin-top: 1rem;
 }
 
 .greeting-text-p {
@@ -51,7 +52,16 @@
   display: inline-block;
   transform-origin: 70% 70%;
 }
-
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.subTitle {
+  color: #868e96;
+}
 @keyframes wave {
   0% {
     transform: rotate(0deg);
@@ -130,9 +140,21 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-
 }
+.greeting-text-p {
+  font-size: 22px;
+  line-height: 40px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
 /* Media Query */
+//@media (max-width: 1380px) {
+//  .greeting-text-p {
+//    font-size: 20px;
+//  }
+//}
+
 @media (max-width: 768px) {
   .main-button {
     font-size: 15px;
@@ -146,3 +168,7 @@
   }
 }
 
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

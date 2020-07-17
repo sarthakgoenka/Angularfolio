@@ -32,7 +32,9 @@
               "node_modules/font-awesome/css/font-awesome.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/angular-colorthief/angular-colorthief.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -98,7 +100,9 @@
               "node_modules/font-awesome/css/font-awesome.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/angular-colorthief/angular-colorthief.js"
+            ]
           }
         },
         "lint": {

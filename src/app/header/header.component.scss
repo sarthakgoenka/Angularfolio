@@ -1,4 +1,11 @@
 /* header */
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 .header {
   max-width: 90%;
@@ -20,6 +27,7 @@
 .header li a {
   display: block;
   padding: 20px 20px;
+  font-weight: 400;
   color: black;
   text-decoration: none;
 }
@@ -123,7 +131,9 @@
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-
+.subtitle{
+  color: red;
+}
 /* 48em = 768px */
 
 @media (min-width: 48em) {
