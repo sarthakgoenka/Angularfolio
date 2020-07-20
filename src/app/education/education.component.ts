@@ -24,7 +24,7 @@ export class EducationComponent implements OnInit {
       className2: "prt_about_learnbox_left"
     },
     {
-      heading: "Higher Secondary",
+      heading: "Higher Secondary(12th)",
       duration: "2016",
       subtitle: "CBSE Board",
       content: "Successfully completed my intermediate studies in 2016 from Gyan Deep Sr. Secondary Public School, Shikohabad.\n" +
@@ -33,7 +33,7 @@ export class EducationComponent implements OnInit {
       className2: "prt_about_learnbox_right"
     },
     {
-      heading: "Secondary Stage",
+      heading: "Secondary Stage(10th)",
       duration: "2014",
       subtitle: "CBSE Board",
       content: "Successfully completed my high school studies in 2014 from Georgions Academy, Shikohabad.",

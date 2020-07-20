@@ -6,14 +6,17 @@ import {Component, Input, OnInit} from '@angular/core'
   styleUrls: ['./github-repo-card.component.scss']
 })
 export class GithubRepoCardComponent implements OnInit {
-  @Input() github: {name:string, description:string, language:string, fork:number, star:number, size:string, link:string};
+  // @Input() github: {name:string, description:string, language:string, fork:number, star:number, size:string, link:string};
+  @Input() github:any;
+  @Input() link:any;
   constructor(private window: Window) { }
 
-  // public colorClass:string = this.github.language + " language-color";
   ngOnInit(): void {
+    console.log(this.github.node.url);
   }
+
   onCardClick(){
-    let win = window.open(this.github.link, "_blank");
+    let win = window.open(this.github.node.url, "_blank");
     win.focus();
   }
 

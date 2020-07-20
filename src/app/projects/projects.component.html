@@ -1,8 +1,15 @@
 <!--<p>projects works!</p>-->
+
+
+
 <div class="main" id="projects">
-  <h1 class="project-title">Projects</h1>
+  <h1 class="project-title">My Work 📂</h1>
+<!--    <img src="https://ghchart.rshah.org/55198b/sarthakgoenka" alt="Sarthak Goenka Github Chart" class="github__chart">-->
+  <div class="github__chart">
+    <app-github-calendar></app-github-calendar>
+  </div>
   <div class="repo-cards-div-main" >
-    <app-github-repo-card *ngFor="let project of projects" [github]="project"></app-github-repo-card>
+    <app-github-repo-card *ngFor="let project of projects2; let i = index" [github]="project" [index]="i"></app-github-repo-card>
   </div>
 <!--  <button class="project-button" >MoreProject</button>-->
   <div class="project-button"><a class="main-button" href="https://github.com/sarthakgoenka" target="_blank">More Projects</a></div>

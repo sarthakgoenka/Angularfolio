@@ -23,9 +23,11 @@ h1{
 .skill{
   line-height: 3.5vw;
 }
-.skill-bars{
-  font-size: 28px;
+
+.skills-bar{
+  font-size: 16px;
   width: 40%;
+  //animation: fade_left 1.5s 6s;
 }
 .skills-container {
   display: flex;
@@ -43,6 +45,7 @@ h1{
   margin-left: 80px;
   max-width: 90%;
   height: auto;
+  //animation: fade_right 1.5s 6s;
 }
 
 /* Media Query */
@@ -50,9 +53,10 @@ h1{
 @media (max-width: 1456px) {
   .skills-bar {
     line-height: 4rem;
+    width: 100%;
   }
   .skills-image {
-    //display: none;
+    display: none;
     order: 2;
   }
 }
@@ -66,8 +70,67 @@ h1{
     margin: 20px;
   }
   .skills-image {
-    display: none;
+    //display: none;
     order: 2;
   }
 }
 
+
+/* Animations */
+@keyframes fade_down {
+  0% {
+    opacity: 0.01;
+    transform: translateY(-40px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+
+@keyframes fade_up {
+  0% {
+    opacity: 0.01;
+    transform: translateY(40px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+@keyframes fade_right {
+  0% {
+    opacity: 0.01;
+    transform: translateX(40px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+@keyframes fade_left {
+  0% {
+    opacity: 0.01;
+    transform: translateX(-40px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}

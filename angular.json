@@ -33,7 +33,8 @@
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "./node_modules/angular-colorthief/angular-colorthief.js"
+              "./node_modules/angular-colorthief/angular-colorthief.js",
+              "./node_modules/github-calendar/dist/github-calendar.min.js"
             ]
           },
           "configurations": {

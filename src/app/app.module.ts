@@ -20,6 +20,9 @@ import { ExperienceCardComponent } from './experience/experience-card/experience
 import { GithubRepoCardComponent } from './projects/github-repo-card/github-repo-card.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
+import { GraphQLModule } from './projects/graphql.module';
+import { HttpClientModule } from '@angular/common/http';
+import { GithubCalendarComponent } from './github-calendar/github-calendar.component';
 @NgModule({
     declarations: [
         AppComponent,
@@ -39,11 +42,14 @@ import { EducationComponent } from './education/education.component';
         GithubRepoCardComponent,
         ProjectsComponent,
         EducationComponent,
+        GithubCalendarComponent,
     ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    GraphQLModule,
+    HttpClientModule
   ],
   providers: [
     { provide: Window, useValue: window }

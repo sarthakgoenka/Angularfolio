@@ -12,9 +12,11 @@ p {
 .skills-main-div {
   display: flex;
   align-items: center;
+
 }
 .skills-text-div {
   margin-left: 50px;
+  //animation: fade_right 1s 2s;
 }
 
 .skills-main-div > * {
@@ -25,6 +27,7 @@ p {
 .skills-image-div > img {
   max-width: 100%;
   height: auto;
+  //animation : fade_left 1s 2s;
 }
 
 .skills-heading {
@@ -64,5 +67,64 @@ p {
   .skills-image-div {
     /* display: none; */
     order: 2;
+  }
+}
+
+/* Animations */
+@keyframes fade_down {
+  0% {
+    opacity: 0.01;
+    transform: translateY(-40px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+
+@keyframes fade_up {
+  0% {
+    opacity: 0.01;
+    transform: translateY(40px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+@keyframes fade_right {
+  0% {
+    opacity: 0.01;
+    transform: translateX(40px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+@keyframes fade_left {
+  0% {
+    opacity: 0.01;
+    transform: translateX(-40px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
   }
 }

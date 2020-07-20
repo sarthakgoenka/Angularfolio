@@ -16,11 +16,12 @@ export class ExperienceComponent implements OnInit {
         color: "#3781c2",
         companylogo: "../../../assets/images/infosys.png",
         date: "Upcoming",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        descBullets: [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-        ]
+        // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        desc: "Upcoming Software Enginer Specialist(SES) at Infosys",
+        // descBullets: [
+        //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        // ]
       },
       {
         role: "Computer Science & Engineering",
@@ -28,7 +29,11 @@ export class ExperienceComponent implements OnInit {
         color: "#3f703f",
         companylogo: "../../../assets/images/gla.png",
         date: "Aug 2016 – Jul 2020",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        desc: "I have completed my 4 year graduation degree in computer science with overall CGPA 8.6",
+        // descBullets: [
+        //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        // ]
       },
       {
         role: "Software Engineer Intern",
@@ -36,8 +41,12 @@ export class ExperienceComponent implements OnInit {
         color: "#ff9102",
         companylogo: "../../../assets/images/ibs.png",
         date: "Jun 2018 – Aug 2018",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
+        desc: "The 6- Week summer training focused on full-stack web development and helped learn to work in a team",
+        },
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     ]
   };
 
