@@ -23,11 +23,14 @@ import { EducationComponent } from './education/education.component';
 import { GraphQLModule } from './projects/graphql.module';
 import { HttpClientModule } from '@angular/common/http';
 import { GithubCalendarComponent } from './github-calendar/github-calendar.component';
+import {AnimateModule} from "./animation/animate.module";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 @NgModule({
     declarations: [
         AppComponent,
         HeaderComponent,
-        GreetingComponent,
+
+      GreetingComponent,
         ButtonComponent,
         SocialMediaComponent,
         SkillsComponent,
@@ -48,8 +51,10 @@ import { GithubCalendarComponent } from './github-calendar/github-calendar.compo
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
+    BrowserAnimationsModule,
     GraphQLModule,
-    HttpClientModule
+    HttpClientModule,
+    AnimateModule
   ],
   providers: [
     { provide: Window, useValue: window }
