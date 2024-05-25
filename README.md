@@ -28,7 +28,7 @@ You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/downl
 node@v10.16.0 or higher
 npm@6.9.0 or higher
 git@2.17.1 or higher
-Angular@8.0.2 or higher
+Angular@9.0.3 or higher
 ```
 
 
